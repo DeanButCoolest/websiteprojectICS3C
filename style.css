@@ -2,3 +2,14 @@ h1 {
     color: tan;
     font-size: 40px;
 }
+
+body {
+    background: white;
+}
+
+
+img {
+  border: 5px solid #567;
+  float: left;
+  fix: left;
+}
