@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-    background: white;
+    background: maroon;
 }
 
 
@@ -12,4 +12,9 @@ img {
   border: 5px solid #567;
   float: left;
   fix: left;
+}
+
+button {
+    font-size: 40px;
+
 }
