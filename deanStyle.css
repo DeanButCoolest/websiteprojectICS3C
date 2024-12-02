@@ -43,6 +43,10 @@ footer {
     bottom: 0;
 }
 
+a {
+    color: black;
+}
+
 .deanB:hover {
     text-decoration-style: wavy;
     color: white;
