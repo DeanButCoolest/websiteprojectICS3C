@@ -45,3 +45,30 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+a {
+    color: black;
+}
+
+.deanB:hover {
+    text-decoration-style: wavy;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.jeffB:hover {
+    text-decoration-style: wavy;
+    color: white;
+}
+
+.ethanB:hover {
+    text-decoration-style: wavy;
+    color: white;
+}
+
+.homeB:hover {
+    text-decoration-style: wavy;
+    color: white;
+}
