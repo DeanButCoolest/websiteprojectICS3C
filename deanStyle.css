@@ -11,6 +11,8 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -26,11 +28,6 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 15px 0;
 }
 
 footer {
@@ -51,7 +48,7 @@ a {
     text-decoration-style: wavy;
     color: white;
     font-family: 'Brush Script MT', cursive;
-    font-size: 20px;
+    font-size: 15px;
     text-shadow: 3px 3px 3px #ababab;
 }
 
@@ -68,4 +65,30 @@ a {
 .homeB:hover {
     text-decoration-style: wavy;
     color: white;
+}
+
+
+.funny {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div.funny2 {
+    border: 4px dotted #8B8000;
+    text-align: center;
+}
+
+.funGame {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+.textE3 {
+    position: absolute;
+    left:520px;
+    top: 300px;
+    display: flex;
+    flex-direction: column-reverse;
 }
