@@ -80,4 +80,6 @@ p {
   text-align:
 
 }
-
+.yea {
+    flex-wrap: wrap;
+    display: flex;
