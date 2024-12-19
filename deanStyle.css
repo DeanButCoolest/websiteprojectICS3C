@@ -13,6 +13,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 nav ul {
@@ -83,7 +84,11 @@ div.funny2 {
     display: flex;
 }
 
-
+.funny22 {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
 
 .textE3 {
     position: absolute;
@@ -91,4 +96,56 @@ div.funny2 {
     top: 300px;
     display: flex;
     flex-direction: column-reverse;
+    z-index: 1;
+}
+
+.Imgs .Imgs2 {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.carImg {
+    width: 175px;
+    height:175px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 6px 6px #191414;
+    vertical-align: middle;
+}
+
+.carImg:hover {
+    transform: translateY(-10px);
+    transition: transform 2 ease-in-out;
+    cursor: pointer;
+    scale(100, 100);
+}
+
+.carImg2:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-property: translateY;
+    transition-duration: 2s;
+
+
+}
+
+.carImg2{
+    width: 175px;
+    height:175px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 6px 6px #191414;
+    vertical-align: middle;
+}
+
+.carImg:active {
+    box-shadow: 6px 6px gray;
+}
+
+.carImg2:active {
+    box-shadow: 6px 6px gray;
 }
